@@ -1,0 +1,292 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+#container{
+  height: 100%;
+  width: 100%;
+}
+
+#header img{
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+.titulo{
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.titulo1{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  padding-bottom: 15px;
+  color: darkred
+}
+
+.titulo2{
+  margin-left: 6%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  padding-bottom: 5px;
+  color: darkred;
+  display: inline-block;
+}
+
+.titulo3{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  padding-bottom: 5px;
+  color: darkred;
+  display: inline-block;
+  margin-left: 11%;
+}
+
+.titulo4{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: left;
+  padding-bottom: 5px;
+  color: darkred;
+  display: inline-block;
+  margin-right: 11.4%;
+}
+
+.imgcarne1{
+  background-color: gray;
+  width: 20%;
+  height: 260px;
+  position: absolute;
+  left: 10%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.imgcarne2{
+  background-color: gray;
+  width: 20%;
+  height: 260px;
+  position: absolute;
+  left: 40%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.imgcarne3{
+  background-color: gray;
+  width: 20%;
+  height: 260px;
+  position: absolute;
+  left: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.txtcarne1{
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: gabriola;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  left: 10%;
+}
+
+.txtcarne2{
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: gabriola;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  left: 40%;
+}
+
+.txtcarne3{
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: gabriola;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  left: 70%;
+}
+
+header{
+  border-bottom: 1px solid black;
+}
+
+.fotos{
+  padding-bottom: 340px;
+}
+
+hr{
+ 	width: 85%;
+  margin-bottom: 30px;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkred;
+}
+
+pre{
+  margin-left: 8%;
+  font-size:15px;
+  margin-bottom:20px;
+  font-family: arial;
+  left: 10%;
+}
+
+h4{
+  margin-left:8%;
+  text-align: left;
+}
+
+fieldset{
+  width: 320px;
+  height: auto;
+  margin-left: 0.7%;
+  margin-top: 2%;
+  background-image: linear-gradient(white, lightgray, white);
+  margin-bottom: 30px;
+}
+
+#label{
+  margin-left:5px;
+}
+
+#funcionamento{
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -17%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+#left{
+  display: inline-block;
+  margin-left: 6.65%;
+}
+
+button{
+  margin-left: 8%;
+}
+
+.mapa{
+  margin-left: -16%;
+  margin-top: 2%;
+}
+
+.pergunta{
+  font-size:25px;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  margin:10px;
+}
+
+.resposta{
+  font-size:18px;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 30px;
+}
+
+#footer{
+  width:100%;
+  font-family: gabriola;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #610000 ;
+  height: 35px;
+  margin-top: 220px;
+}
+
+
+#tituloo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  padding-bottom: 15px;
+  color: darkred;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: square; 
+  line-height:50%;
+}
+
+li{
+  margin: 5px;
+  font-family: papyrus;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#del{
+  margin-top:-20px;
+  font-weight: bold;
+  margin-bottom: -25px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+#del2{
+  margin-left: 190px;
+  margin-bottom: -30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#nc{
+  color: darkred;
+  font-size: 23px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#qm{
+  background-image: url(a.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 260px 260px;
+  margin-right: 160px;
+}
+
+#flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#flex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
